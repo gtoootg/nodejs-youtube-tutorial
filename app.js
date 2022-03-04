@@ -1,7 +1,5 @@
-const amount = 12
-
-console.log(__dirname)
-
-setInterval(() => {
-  console.log('hello')
-}, 1000)
+const names = require('./4-names')
+const sayHi = require('./5-utils')
+const data = require('./6-alternative-flavor')
+   
+sayHi(names.john)
